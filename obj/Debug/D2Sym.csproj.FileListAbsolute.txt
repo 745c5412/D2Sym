@@ -1,0 +1,5 @@
+C:\Users\Skinz\Desktop\déo\D2Sym\obj\Debug\D2Sym.csprojResolveAssemblyReference.cache
+C:\Users\Skinz\Desktop\déo\D2Sym\bin\Debug\D2Sym.dll
+C:\Users\Skinz\Desktop\déo\D2Sym\bin\Debug\D2Sym.pdb
+C:\Users\Skinz\Desktop\déo\D2Sym\obj\Debug\D2Sym.dll
+C:\Users\Skinz\Desktop\déo\D2Sym\obj\Debug\D2Sym.pdb

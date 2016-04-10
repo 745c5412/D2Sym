@@ -54,7 +54,7 @@ namespace D2Sym.D2O
         /// <returns></returns>
         public static string[] GetD2ONames()
         {
-            var concerned = Assembly.GetExecutingAssembly().GetTypes().ToList().FindAll(x => HasInterface(x,typeof(ID2OClass)));
+            var concerned = Assembly.GetExecutingAssembly().GetTypes().ToList().FindAll(x => x.HasInterface(typeof(ID2OClass)));
             return concerned.ConvertAll<string>(x => x.Name).ToArray();
         }
         public static Type GetD2O(string name)
@@ -208,13 +208,6 @@ namespace D2Sym.D2O
         {
             return d2oType.GetFields().FirstOrDefault(x => x.GetCustomAttribute(typeof(CacheAttribute)) != null);
         }
-        public static bool HasInterface(this Type type, Type interfaceType)
-        {
-            return type.FindInterfaces(new TypeFilter(FilterByName), interfaceType).Length > 0;
-        }
-        private static bool FilterByName(Type typeObj, object criteriaObj)
-        {
-            return typeObj.ToString() == criteriaObj.ToString();
-        }
+       
     }
 }

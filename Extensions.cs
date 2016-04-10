@@ -16,28 +16,7 @@ namespace D2Sym
 {
     public static class Extensions
     {
-        public static void Load()
-        {
-            D2OActivator.OpenD2Os("C:/D2O/", "C:/lang.d2i", true);
-
-            var monsters = D2OActivator.GetD2OValues<Monster>();
-
-            foreach (var monster in monsters)
-            {
-                int id = monster.id;
-                var spells = monster.spells;
-            }
-
-
-
-
-           var queriesData = D2OSynchroniser.GetSyncQueries<Monster>(true);
-
-           foreach (var query in queriesData.Queries)
-           {
-               // SQLConnection.ExecuteNonQuery(query);
-           }
-        }
+        
         public static bool HasAttribute(this Type type, Type attributeType)
         {
             return type.GetCustomAttribute(attributeType) != null;

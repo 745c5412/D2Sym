@@ -6,7 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace D2Sym.D2O
-{    
+{
+    /// <summary>
+    /// Credit to BlueSheep
+    /// </summary>
     public class DataClass
     {
         // Properties

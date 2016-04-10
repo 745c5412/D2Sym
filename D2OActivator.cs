@@ -114,7 +114,7 @@ namespace D2Sym.D2O
         static bool LoadClass(DataClass data)
         {
             var type = Type.GetType("D2Sym.Classes." + data.Name + "");
-            if (type == null) // no .cs class linked to the d2os
+            if (type == null) // no .cs class linked to the d2os?
             {
                 return false;
             }

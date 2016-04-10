@@ -7,6 +7,9 @@ using System.Text;
 
 namespace D2Sym.D2O
 {
+    /// <summary>
+    /// Credit to BlueSheep
+    /// </summary>
     public class GameDataFileAccessor
     {
         #region Attributs

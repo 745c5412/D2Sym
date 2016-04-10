@@ -5,6 +5,9 @@ using System.Reflection;
 
 namespace D2Sym.D2O
 {
+    /// <summary>
+    /// Credit to BlueSheep
+    /// </summary>
     public class GameDataClassDefinition
     {
         #region Attributs

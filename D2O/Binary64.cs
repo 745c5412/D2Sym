@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace D2Sym.D2O
 {
+    /// <summary>
+    /// Credit to BlueSheep
+    /// </summary>
     public class Binary64
     {
         public uint low;

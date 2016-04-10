@@ -9,6 +9,9 @@ using System.Runtime.CompilerServices;
 
 namespace D2Sym.D2O
 {
+    /// <summary>
+    /// Credit to BlueSheep
+    /// </summary>
     public class GameData
     {
         // Methods

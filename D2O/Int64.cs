@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace D2Sym.D2O
 {
+    /// <summary>
+    /// Credit to BlueSheep
+    /// </summary>
     public class Int64 : Binary64
     {
         public Int64(uint param1 = 0, uint param2 = 0): base(param1, param2)

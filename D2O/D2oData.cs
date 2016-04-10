@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace D2Sym.D2O
 {
+    /// <summary>
+    /// Credit to BlueSheep
+    /// </summary>
     internal sealed class D2oData
     {
         internal D2oData(string D2oFile)

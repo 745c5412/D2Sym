@@ -4,7 +4,10 @@ using System.Reflection;
 
 namespace D2Sym.D2O
 {
-    static class ReflectionExtensions // Classe de bouh²
+    /// <summary>
+    /// Credit to Bouh2 (www.github.com/Timorem)
+    /// </summary>
+    static class ReflectionExtensions 
     {
         #region Public methods
         public static T CreateDelegate<T>(this ConstructorInfo ctor)

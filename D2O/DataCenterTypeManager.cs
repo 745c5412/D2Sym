@@ -4,6 +4,9 @@ using System.Reflection;
 
 namespace D2Sym.D2O
 {
+    /// <summary>
+    /// Credit to BlueSheep
+    /// </summary>
     class DataCenterTypeManager
     {
         #region Attributs

@@ -1,5 +1,5 @@
 # D2Sym
-Dofus 2.29 - 2.30 D2O files manager and synchroniser.
+Dofus 2.29 - 2.41 D2O files manager and synchroniser.
 
 Project under license creative commons.
 
